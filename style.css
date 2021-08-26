@@ -1,0 +1,46 @@
+/* HEADER */
+
+.active{
+  background-color: blueviolet;
+}
+
+.nav-link{
+  color:white !important;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: red;
+
+}
+
+/* -------------------------------------------- */
+/* FOOOTER */
+
+footer{
+  height: 100px ;
+}
+
+/* MAIN --------------------------------------------- */
+
+.bg-imagem{
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+  height: 50vw;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.bg-imagem p{
+  font-size: 5vw;
+  text-shadow: 4px 4px 8px rgba(128, 128, 128, 0.363);
+}
+
+/* AGENDA */
+
+#agenda td{
+  width: 14.29%;
+  height: 60px;
+}
+
+#agenda td.bg-info{
+  color: whitesmoke;
+}
